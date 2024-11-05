@@ -19,7 +19,6 @@ const StarBackground = () => {
   return (
     <div className="stars-container">
       <video autoPlay loop muted className="background-video">
-        <source src="/home//Documents/Programação/Projetos/spaceportfolio/public/blackhole.webm" type="video/webm" />
         Seu navegador não suporta vídeo.
       </video>
       <div className="stars" id="stars" style={{ boxShadow: smallShadows }}></div>
