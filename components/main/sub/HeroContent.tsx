@@ -27,7 +27,7 @@ const HeroContent = () => {
         >
             <span>Olá! Você está no Portfólio do</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                Euller Júlio
+                Euller Júlio da Silva
             </span>
             </motion.div>
 
@@ -35,10 +35,11 @@ const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
-                Sou engenheiro de software Full Stack com experiência em desenvolvimento de sites e aplicativos. Explore meus projetos e conheça minhas habilidades.
+                Sou estudante de Engenharia de Software na Universidade de Brasília e tenho 19 anos. Tenho paixão por programação, especialmente no desenvolvimento back-end, e busco sempre aprender mais e ajudar os outros através da tecnologia. Explore meus projetos e conheça minhas habilidades.
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}
+            href="#projects"
             className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
                 Saiba mais sobre meu trabalho!
             </motion.a>
@@ -53,7 +54,6 @@ const HeroContent = () => {
                             width={650}
                         />
         </motion.div>
-
     </motion.div>
   )
 }
