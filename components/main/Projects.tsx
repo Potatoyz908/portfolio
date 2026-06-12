@@ -41,6 +41,12 @@ const Projects = () => {
           description="Plataforma de apoio às vítimas das enchentes no Rio Grande do Sul. Fui responsável pela construção do frontend em React, criação do sistema de login e integração com o banco de dados."
           repoUrl="https://github.com/Potatoyz908/RSRevive-MaratonaRS"
         />
+        <ProjectCard
+          src="/Toaflix.png"
+          title="Toaflix-App"
+          description="Site de cinema completo desenvolvido em Java com Spring Boot. Possui cadastro, login e escolha de sessões, painel administrativo para gerenciar filmes e pedidos de usuários."
+          repoUrl="https://github.com/Potatoyz908/Project-Toaflix"
+        />
       </div>
     </div>
   );
