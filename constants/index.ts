@@ -113,26 +113,26 @@ export const Skill_data = [
   
   export const Frontend_skill = [
     {
-      skill_name: "Html 5",
+      skill_name: "HTML5",
       Image: "/html.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Css",
+      skill_name: "CSS3",
       Image: "/css.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Type Script",
-      Image: "/ts.png",
-      width: 80,
-      height: 80,
+      skill_name: "JavaScript",
+      Image: "/js.png",
+      width: 65,
+      height: 65,
     },
     {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      skill_name: "TypeScript",
+      Image: "/ts.png",
       width: 80,
       height: 80,
     },
@@ -143,28 +143,28 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "ReactNative",
-      Image: "/ReactNative .png",
+      skill_name: "Vue.js",
+      Image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Node js",
+      skill_name: "Node.js",
       Image: "/node-js.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
-    },
-    {
-      skill_name: "Next js 13",
-      Image: "/next.png",
+      skill_name: "Tailwind CSS",
+      Image: "/tailwind.png",
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "Figma",
+      Image: "/figma.png",
+      width: 60,
+      height: 60,
     },
   ];
   
@@ -176,16 +176,16 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Spring",
+      skill_name: "Spring Boot",
       Image: "/spring.png",
-      width: 60,
-      height: 60,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Python",
       Image: "/py.png",
-      width: 90, 
-      height: 90,
+      width: 80,
+      height: 80,
     },
     {
       skill_name: "Django",
@@ -195,18 +195,18 @@ export const Skill_data = [
     },
     {
       skill_name: "C",
-      Image: "/c.svg",
-      width: 80,
-      height: 80,
+      Image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      width: 70,
+      height: 70,
     },
     {
-      skill_name: "Postger SQL",
+      skill_name: "PostgreSQL",
       Image: "/postger.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "My SQL",
+      skill_name: "MySQL",
       Image: "/mysql.png",
       width: 70,
       height: 70,
@@ -220,7 +220,19 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
-    { 
+    {
+      skill_name: "Git",
+      Image: "/git.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "GitHub",
+      Image: "/gitwhite.png",
+      width: 60,
+      height: 60,
+    },
+    {
       skill_name: "Apache",
       Image: "/apache.png",
       width: 70,
@@ -233,35 +245,31 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Github",
-      Image: "/gitwhite.png",
-      width: 60,
-      height: 60,
-    },
-    
-    {
-      skill_name: "Git",
-      Image: "/git.png",
-      width: 80,
-      height: 80,
+      skill_name: "Postman",
+      Image: "/postman.png",
+      width: 70,
+      height: 70,
     },
     {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 40,
-      height: 40,
+      skill_name: "Linux",
+      Image: "https://img.icons8.com/?size=100&id=t2x6DtCn5Zzx&format=png&color=000000",
+      width: 70,
+      height: 70,
     },
-    
+    {
+      skill_name: "Kali Linux",
+      Image: "https://img.icons8.com/?size=100&id=qBWtR72kluCU&format=png&color=000000",
+      width: 70,
+      height: 70,
+    },
   ];
-  
-  
   
   export const Other_skill = [
     {
-      skill_name: "Vscode",
+      skill_name: "VS Code",
       Image: "/vscode.png",
-      width: 75,
-      height: 75,
+      width: 70,
+      height: 70,
     },
     {
       skill_name: "Eclipse",
@@ -270,13 +278,18 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Itellij",
+      skill_name: "IntelliJ",
       Image: "/intellij.png",
       width: 70,
       height: 70,
     },
+    {
+      skill_name: "Azure",
+      Image: "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000",
+      width: 70,
+      height: 70,
+    },
   ];
-  
   
   
   
