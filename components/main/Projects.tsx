@@ -25,7 +25,7 @@ const Projects = () => {
         />
         <ProjectCard
           src="/BrasilParticipativo.png"
-          title="Brasil Participativo - Lappis"
+          title="Brasil Participativo - Lab/Livre"
           description="Pesquisa e desenvolvimento em cibersegurança e infraestrutura para a maior plataforma de participação social do mundo. Atuação no Red Team e mitigação de vulnerabilidades."
           liveUrl="https://brasilparticipativo.presidencia.gov.br"
         />
