@@ -7,48 +7,40 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-20"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Meus Projetos
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
+        Projetos em Destaque
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row flex-wrap gap-10 px-10 justify-center">
         <ProjectCard
-          src="/RsRevive.png"
-          title="RSRevive-MaratonaRS"
-          description="Repositório do projeto RecomeçoRS, uma plataforma para auxiliar na reintegração das vítimas das enchentes no Rio Grande do Sul. Oferecemos cursos, vagas de emprego e oportunidades de trabalho voluntário para reconstruir as comunidades afetadas."
+          src="/investeeasy.png"
+          title="Investeeasy"
+          description="Plataforma web de investimentos e finanças de fácil acesso, desenvolvida para simplificar e tornar intuitiva a visualização e gestão de ativos financeiros."
+          liveUrl="https://investeeasy.com.br"
+        />
+        <ProjectCard
+          src="/acheiunb.jpeg"
+          title="AcheiUnB"
+          description="Plataforma de achados e perdidos da UnB com chat em tempo real e sistema de match inteligente com notificações automáticas. Desenvolvido usando Django, Vue, Docker, PostgreSQL, Redis e Celery."
+          repoUrl="https://github.com/fcte-pi1/2026_1_PI1_Grupo02_Hilmer"
+        />
+        <ProjectCard
+          src="/BrasilParticipativo.png"
+          title="Brasil Participativo - Lappis"
+          description="Pesquisa e desenvolvimento em cibersegurança e infraestrutura para a maior plataforma de participação social do mundo. Atuação no Red Team e mitigação de vulnerabilidades."
+          liveUrl="https://brasilparticipativo.presidencia.gov.br"
+        />
+        <ProjectCard
+          src="/gerenciador.png"
+          title="Gerenciador de Custos"
+          description="Sistema financeiro inteligente desenvolvido para o projeto Gamifica DF, permitindo a gestão fácil de dados financeiros com interface gráfica intuitiva e manipulação automatizada de planilhas Excel."
+          repoUrl="https://github.com/Potatoyz908/Gerenciador-de-Planilha-Financeira"
         />
         <ProjectCard
           src="/RsRevive.jpg"
-          title="PasLib"
-          description="Um site desenvolvido para atender às necessidades de estudantes que buscam sua aprovação nas provas do
-PAS-UNB e Vestibular-UNB, mas que têm pouco tempo disponível para frequentar cursinhos tradicionais ou para pesquisar extensivamente por materiais de estudo."
+          title="RSRevive"
+          description="Plataforma de apoio às vítimas das enchentes no Rio Grande do Sul. Fui responsável pela construção do frontend em React, criação do sistema de login e integração com o banco de dados."
+          repoUrl="https://github.com/Potatoyz908/RSRevive-MaratonaRS"
         />
-          <ProjectCard
-            src="/Toaflix.png"
-            title="Toaflix-App"
-            description="Um site de Cinema completo que conta com uma interface de fácil entendimento, onde é possível fazer cadastro em uma conta, como usuário é possível buscar filmes em cartaz e caso esteja logado como administrador, você pode cadastrar, remover e listar os filmes em cartaz, também é
-possível ver todos os pedidos feitos por usuários."
-          />
-          <ProjectCard
-            src="/gerenciador.png"
-            title="Gerenciador de Planilha Financeira"
-            description="O Gerenciador de Planilha Financeira é uma aplicação desenvolvida em Python que permite aos usuários gerenciar e atualizar dados financeiros de forma fácil e eficiente. Através de uma interface gráfica amigável, o usuário pode adicionar, filtrar e organizar informações financeiras em planilhas Excel, facilitando a gestão de centros de custo e fornecedores."
-              
-          />
-      </div>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10"> {/* Adicionando margin-top aqui */}
-          <ProjectCard
-            src="/toaflix-plus.png"
-            title="Toaflix-plus"
-            description="O site oferece uma interface fácil de usar para pesquisar. Foi dedicado para usuários que
-  buscam encontrar filmes e e-books de domínio público.
-  "
-          />
-          <ProjectCard
-            src="/Portfolio.png"
-            title="Portfólio Euller Júlio"
-            description="Bem-vindo ao meu portfólio! Descubra projetos que mostram minhas habilidades em desenvolvimento e design, refletindo minha paixão por tecnologia e inovação."
-          />
-        
       </div>
     </div>
   );

@@ -46,7 +46,8 @@ const Encryption = () => {
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
-        Proteja seus dados com criptografia de ponta a ponta        </div>
+          Segurança, resiliência e alta performance desde a concepção do código até a infraestrutura
+        </div>
       </div>
 
       <div className="w-full flex items-start justify-center absolute">
