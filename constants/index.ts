@@ -104,7 +104,7 @@ export const Skill_data = [
   {
     name: "Discord",
     src: "/discord.svg",
-    link: "https://discord.com/users/285184598965485583",
+    link: "https://discord.com/users/1401225524927402086",
   },
 
 ];

@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <a href="https://discord.com/users/285184598965485583" target="_blank" rel="noopener noreferrer" className="flex items-center">
+              <a href="https://discord.com/users/1401225524927402086" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 <RxDiscordLogo />
                 <span className="text-[15px] ml-[6px]">Discord</span>
               </a>
