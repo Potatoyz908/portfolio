@@ -35,7 +35,7 @@ const HeroContent = () => {
             variants={slideInFromLeft(0.8)}
             className='text-lg text-gray-400 my-5 max-w-[600px]'
             >
-                Sou estudante de Engenharia de Software na Universidade de Brasília e tenho 19 anos. Tenho paixão por programação, especialmente no desenvolvimento back-end, e busco sempre aprender mais e ajudar os outros através da tecnologia. Explore meus projetos e conheça minhas habilidades.
+                Tenho 21 anos e sou estudante de Engenharia de Software na Universidade de Brasília. Desenvolvo soluções full-stack, com interesse especial em back-end e inteligência artificial. Minha experiência inclui projetos para educação, saúde e serviços públicos, além de testes e refatorações na ferramenta de IA do Informa.BR, da CGU. Gosto de transformar ideias em tecnologia útil e de aprender em equipe a cada desafio.
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}
