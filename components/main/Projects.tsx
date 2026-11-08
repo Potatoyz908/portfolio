@@ -3,6 +3,14 @@ import ProjectCard from "./sub/ProjectCard";
 
 const projects = [
   {
+    src: "/maestrix.png",
+    title: "Maestrix",
+    description: "Canvas nativo para Linux (GTK 4 + Cairo, núcleo em Swift) que orquestra agentes de IA como um time: terminais reais, notas, arquivos e navegadores num canvas infinito, com agentes que delegam tarefas entre si pela CLI omaestri. Derivado do OpenMaestri, sob GPL-3.0.",
+    repoUrl: "https://github.com/Potatoyz908/Maestrix",
+    liveUrl: "https://potatoyz908.github.io/Maestrix/",
+    liveLabel: "Documentação",
+  },
+  {
     src: "/tutor-darcy.png",
     title: "Tutor Darcy",
     description: "Assistente virtual inteligente da UnB que ajuda estudantes com dúvidas de acesso e uso da plataforma Aprender, disponível 24 horas por dia.",
