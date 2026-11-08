@@ -14,7 +14,7 @@ const Navbar = () => {
             height={70}
             className="cursor-pointer hover:animate-slowspin w-[48px] h-[48px] md:w-[70px] md:h-[70px] shrink-0"
           />
-          <span className='font-bold ml-[10px] hidden md:block text-gray-300'>
+          <span className='font-bold ml-[10px] hidden md:block text-gray-300 whitespace-nowrap'>
             Euller Dev
           </span>
         </a>

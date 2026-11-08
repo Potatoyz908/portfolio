@@ -33,14 +33,14 @@ const HeroContent = () => {
 
             <motion.p
             variants={slideInFromLeft(0.8)}
-            className='text-base md:text-lg text-gray-400 my-3 md:my-5 max-w-full md:max-w-[600px]'
+            className='text-base md:text-lg text-gray-200 md:text-gray-400 [text-shadow:0_1px_10px_rgba(3,0,20,0.9)] md:[text-shadow:none] my-3 md:my-5 max-w-full md:max-w-[600px]'
             >
                 Tenho 21 anos e sou estudante de Engenharia de Software na Universidade de Brasília. Desenvolvo soluções full-stack, com interesse especial em back-end e inteligência artificial. Minha experiência inclui projetos para educação, saúde e serviços públicos, além de testes e refatorações na ferramenta de IA do Informa.BR, da CGU. Gosto de transformar ideias em tecnologia útil e de aprender em equipe a cada desafio.
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}
             href="#projects"
-            className='py-2 button-primary text-center text-white cursor-pointer rounded-lg w-full sm:max-w-[240px] px-4'>
+            className='py-2 button-primary text-center text-white cursor-pointer rounded-lg w-full sm:max-w-[280px] px-4'>
                 Saiba mais sobre meu trabalho!
             </motion.a>
         </div>
